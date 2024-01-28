@@ -6,7 +6,7 @@ Text summarization is a crucial natural language processing task that involves c
 
 ## Key Features:
 
-1. **Metrics Considered:**
+1. **Metrices Considered:**
    - The comparison is based on essential metrics, including Rouge scores, length of the summary, and training time. Rouge scores assess the quality of the generated summaries, while length and training time provide insights into efficiency and resource requirements.
 
 2. **Methodology - TOPSIS:**
