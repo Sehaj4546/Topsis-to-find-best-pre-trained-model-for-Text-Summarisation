@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load data from the CSV file
-data = pd.read_csv('data.csv')
+data = pd.read_csv('/content/Input_models.csv')
 
 # Extract relevant columns
 rouge_scores = data['Rouge_Scores'].values
@@ -41,4 +41,4 @@ data['Rank'] = data['TOPSIS_Score'].rank(ascending=False)
 print("Model Ranking:")
 print(data[['Model', 'TOPSIS_Score', 'Rank']].sort_values(by='Rank'))
 
-data.to_csv('result.csv', index=False)
+data.to_csv('/content/Result.csv', index=False)
