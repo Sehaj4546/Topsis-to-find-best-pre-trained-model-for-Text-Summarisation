@@ -1,5 +1,7 @@
 # Topsis-to-find-best-pre-trained-model-for-Text-Summarisation
 
+## By : Sehajbir Singh Bains
+
 ## Overview
 
 Text summarization is a crucial natural language processing task that involves condensing large documents into concise and informative summaries. This project focuses on comparing the performance of various text summarization models to help users choose the most suitable model for their specific needs.
